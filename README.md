@@ -1,4 +1,4 @@
-# PaperFold
+# PaperFold-Puzzles
 
 ## Overview
 
