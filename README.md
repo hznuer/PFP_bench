@@ -14,7 +14,7 @@ Paper Folding Puzzles: Can Multimodal Large Language Models Perform Spatial Reas
 
 ## 🔍 Introduction
 
-This repository contains the official implementation and benchmark dataset for our **AAAI 2025** paper: **Paper Folding Puzzles (PFP)** - a novel benchmark designed to evaluate and enhance visual reasoning and spatial intelligence in AI systems.
+This repository contains the official implementation and benchmark dataset for our **AAAI 6** paper: **Paper Folding Puzzles (PFP)** - a novel benchmark designed to evaluate and enhance visual reasoning and spatial intelligence in AI systems.
 
 > Paper folding puzzles represent a fundamental challenge in visual reasoning, requiring models to understand geometric transformations, spatial relationships, and sequential reasoning. Our comprehensive benchmark provides a systematic framework for evaluating these capabilities across multiple complexity levels.
 
@@ -35,9 +35,9 @@ This repository contains the official implementation and benchmark dataset for o
 
 ## 📊 Dataset and Code Availability
 
-The code and dataset are now publicly available!
+The code and dataset will be released soon!
 
-We are committed to making our research reproducible and accessible to the community. We provide:
+We are committed to making our research reproducible and accessible to the community. We will release:
 
 - **Dataset Generation Code**: Complete pipeline for creating paper folding puzzles
 - **Comprehensive Benchmark Dataset**: Extensive collection of annotated puzzles
@@ -117,7 +117,7 @@ Our comprehensive evaluation demonstrates significant improvements in visual rea
 If you find our work useful for your research, please cite our AAAI 2025 paper:
 
 ```bibtex
-@inproceedings{paperfolding2025benchmark,
+@inproceedings{paperfolding2026benchmark,
   title={Paper Folding Puzzles: Can Multimodal Large Language Models Perform Spatial Reasoning?},
   author={[Author Names]},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
@@ -134,6 +134,6 @@ For questions or inquiries, please:
 
 ---
 
-**Thank you for your interest in our work!** 🎉
+**Thank you for your interest in our work! Stay tuned for the full release!** 🎉
 
-*This repository contains the complete implementation, datasets, and documentation for our AAAI 2026 paper.*
+*This repository will be updated with the complete implementation, datasets, and documentation for our AAAI 2026 paper.*
