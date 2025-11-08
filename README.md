@@ -14,7 +14,7 @@ Paper Folding Puzzles: Can Multimodal Large Language Models Perform Spatial Reas
 
 ## 🔍 Introduction
 
-This repository contains the official implementation and benchmark dataset for our **AAAI 6** paper: **Paper Folding Puzzles (PFP)** - a novel benchmark designed to evaluate and enhance visual reasoning and spatial intelligence in AI systems.
+This repository contains the official implementation and benchmark dataset for our **AAAI 26** paper: **Paper Folding Puzzles (PFP)** - a novel benchmark designed to evaluate and enhance visual reasoning and spatial intelligence in AI systems.
 
 > Paper folding puzzles represent a fundamental challenge in visual reasoning, requiring models to understand geometric transformations, spatial relationships, and sequential reasoning. Our comprehensive benchmark provides a systematic framework for evaluating these capabilities across multiple complexity levels.
 
@@ -114,7 +114,7 @@ Our comprehensive evaluation demonstrates significant improvements in visual rea
 
 ## 📚 Citation
 
-If you find our work useful for your research, please cite our AAAI 2025 paper:
+If you find our work useful for your research, please cite our AAAI 2026 paper:
 
 ```bibtex
 @inproceedings{paperfolding2026benchmark,
