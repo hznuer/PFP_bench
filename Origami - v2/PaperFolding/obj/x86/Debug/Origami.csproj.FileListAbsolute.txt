@@ -1,0 +1,56 @@
+F:\PaperFolding\respo\PaperFolding--v2\Product\PaperFolding.exe.config
+F:\PaperFolding\respo\PaperFolding--v2\Product\PaperFolding.exe
+F:\PaperFolding\respo\PaperFolding--v2\Product\PaperFolding.pdb
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.csproj.AssemblyReference.cache
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.AboutBox.resources
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.CandidateForm.resources
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.MainForm.resources
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.Properties.Resources.resources
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.Template3DForm.resources
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.ExportTypeCForm.resources
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.ExportTypeBForm.resources
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.csproj.GenerateResource.cache
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.csproj.CoreCompileInputs.cache
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.csproj.Up2Date
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\PaperFolding.exe
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\PaperFolding.pdb
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.Template2DForm.resources
+F:\PaperFolding\respo\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.ExportTypeAForm.resources
+C:\Users\wyx\Desktop\PaperFolding--v2\Product\PaperFolding.exe.config
+C:\Users\wyx\Desktop\PaperFolding--v2\Product\PaperFolding.exe
+C:\Users\wyx\Desktop\PaperFolding--v2\Product\PaperFolding.pdb
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.csproj.AssemblyReference.cache
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\PaperFolding.exe.config
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.AboutBox.resources
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.CandidateForm.resources
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.ExportTypeAForm.resources
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.Template2DForm.resources
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.MainForm.resources
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.Properties.Resources.resources
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.Template3DForm.resources
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.ExportTypeCForm.resources
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.ExportTypeBForm.resources
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.csproj.GenerateResource.cache
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.csproj.CoreCompileInputs.cache
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.csproj.Up2Date
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\PaperFolding.exe
+C:\Users\wyx\Desktop\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\PaperFolding.pdb
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Product\PaperFolding.exe.config
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Product\PaperFolding.exe
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Product\PaperFolding.pdb
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.csproj.AssemblyReference.cache
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\PaperFolding.exe.config
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.AboutBox.resources
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.CandidateForm.resources
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.ExportTypeAForm.resources
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.Template2DForm.resources
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.MainForm.resources
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.Properties.Resources.resources
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.Template3DForm.resources
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.ExportTypeCForm.resources
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.ExportTypeBForm.resources
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.csproj.GenerateResource.cache
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.csproj.CoreCompileInputs.cache
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\Origami.csproj.Up2Date
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\PaperFolding.exe
+C:\Users\wyx\Desktop\新建 360压缩 ZIP 文件\PaperFolding--v2\Origami - v2\PaperFolding\obj\x86\Debug\PaperFolding.pdb

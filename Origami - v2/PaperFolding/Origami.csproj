@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA198534-CE83-4E9C-AF1D-9BF918B3CC2E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Origami</RootNamespace>
+    <AssemblyName>PaperFolding</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Product\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Product\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accord.Math, Version=3.8.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\Accord.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV, Version=2.3.0.1416, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.ML, Version=2.3.0.1416, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\Emgu.CV.ML.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI, Version=2.3.0.1416, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util, Version=2.3.0.1416, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL, Version=3.1.1.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\SharpGL.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.SceneGraph, Version=3.1.1.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\SharpGL.SceneGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.WinForms, Version=3.1.1.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\SharpGL.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tao.FreeGlut, Version=2.4.0.2, Culture=neutral, PublicKeyToken=6e602a6ad6c0d06d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\Tao.FreeGlut.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.OpenGl, Version=2.1.0.12, Culture=neutral, PublicKeyToken=1ca010269a4501ef, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\Tao.OpenGl.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Platform.Windows, Version=1.0.0.5, Culture=neutral, PublicKeyToken=701104b2da67a104, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Product\Tao.Platform.Windows.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="3D-2D\CubeNet.cs" />
+    <Compile Include="3D-2D\CubeNetDrawer.cs" />
+    <Compile Include="3D-2D\Folding3DUtils.cs" />
+    <Compile Include="3D-2D\ImageGenerationOptions.cs" />
+    <Compile Include="3D-2D\RigidTransform.cs" />
+    <Compile Include="3D-2D\TextureGenerator.cs" />
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CandidateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CandidateForm.Designer.cs">
+      <DependentUpon>CandidateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\OrigamiConfuseScheme.cs" />
+    <Compile Include="Engine\OrigamiCutObjs.cs" />
+    <Compile Include="Engine\OrigamiEngine.cs" />
+    <Compile Include="Engine\OrigamiFolding.cs" />
+    <Compile Include="Engine\OrigamiPaper.cs" />
+    <Compile Include="Engine\OrigamiSetting.cs" />
+    <Compile Include="Engine\OrigamiStart.cs" />
+    <Compile Include="Engine\OrigamiStep.cs" />
+    <Compile Include="Engine\OrigamiUtils.cs" />
+    <Compile Include="2D\ExportTypeAForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2D\ExportTypeAForm.Designer.cs">
+      <DependentUpon>ExportTypeAForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2D\exportSetting.cs" />
+    <Compile Include="Template2DForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Template2DForm.Designer.cs">
+      <DependentUpon>Template2DForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\OrigamiCut.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shape\ShapeRenderer.cs" />
+    <Compile Include="Template3DForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Template3DForm.Designer.cs">
+      <DependentUpon>Template3DForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\BatchTools.cs" />
+    <Compile Include="Utils\GlobalUtils.cs" />
+    <Compile Include="Utils\ImageComposer.cs" />
+    <Compile Include="Utils\ImageComposerV2.cs" />
+    <Compile Include="Utils\ImageListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utils\ImageListControl.Designer.cs">
+      <DependentUpon>ImageListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\DeepCopyHelper.cs" />
+    <Compile Include="Utils\GeometricUtils.cs" />
+    <Compile Include="Utils\ShapeGenerator.cs" />
+    <Compile Include="2D\ExportTypeCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2D\ExportTypeCForm.Designer.cs">
+      <DependentUpon>ExportTypeCForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2D\ExportTypeBForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2D\ExportTypeBForm.Designer.cs">
+      <DependentUpon>ExportTypeBForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CandidateForm.resx">
+      <DependentUpon>CandidateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2D\ExportTypeAForm.resx">
+      <DependentUpon>ExportTypeAForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Template2DForm.resx">
+      <DependentUpon>Template2DForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Template3DForm.resx">
+      <DependentUpon>Template3DForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2D\ExportTypeCForm.resx">
+      <DependentUpon>ExportTypeCForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2D\ExportTypeBForm.resx">
+      <DependentUpon>ExportTypeBForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\1.jpg" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\3.jpg" />
+    <Content Include="unknown.bmp" />
+    <Content Include="功能列表.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
