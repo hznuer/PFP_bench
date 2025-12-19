@@ -1777,8 +1777,18 @@ namespace Origami
                     Directory.CreateDirectory(savePath1);
                     Directory.CreateDirectory(savePath2);
 
+                    
+
                     string jsonlPath1 = Path.Combine(savePath1, "answer.jsonl");
                     string jsonlPath2 = Path.Combine(savePath2, "answer.jsonl");
+
+                    savePath1 += "\\imgs";
+                    savePath2 += "\\imgs";
+                    if(!Directory.Exists(savePath1))
+                        Directory.CreateDirectory(savePath1);
+
+                    if (!Directory.Exists(savePath2))
+                        Directory.CreateDirectory(savePath2);
 
                     // 使用using自动释放StreamWriter
                     using (StreamWriter writer1 = new StreamWriter(jsonlPath1))
@@ -1913,7 +1923,7 @@ namespace Origami
 
                 result.Save(fullPath);
                 labelExportInf.Text = "Write file: " + filename;
-                string jsonLine = $"{{\"image\":\"{filename}\",\"answer\":\"{answer}\"}}";
+                string jsonLine = $"{{\"image\":\"./imgs/{filename}\",\"answer\":\"{answer}\"}}";
                 writer.WriteLine(jsonLine);
                 writer.Flush(); // 及时写入避免缓存溢出
 
@@ -1956,7 +1966,7 @@ namespace Origami
 
                 result.Save(fullPath);
                 labelExportInf.Text = "Write file: " + filename;
-                string jsonLine = $"{{\"image\":\"{filename}\",\"answer\":\"{answer}\"}}";
+                string jsonLine = $"{{\"image\":\"./imgs/{filename}\",\"answer\":\"{answer}\"}}";
                 writer.WriteLine(jsonLine);
                 writer.Flush();
 
@@ -1999,7 +2009,7 @@ namespace Origami
 
                 result.Save(fullPath);
                 labelExportInf.Text = "Write file: "+ filename;
-                string jsonLine = $"{{\"image\":\"{filename}\",\"answer\":\"{answer}\"}}";
+                string jsonLine = $"{{\"image\":\"./imgs/{filename}\",\"answer\":\"{answer}\"}}";
                 writer.WriteLine(jsonLine);
                 writer.Flush();
 
@@ -2045,7 +2055,7 @@ namespace Origami
 
                 result.Save(fullPath);
                 labelExportInf.Text = "Write file: " + filename;
-                string jsonLine = $"{{\"image\":\"{filename}\",\"answer\":\"{answer}\"}}";
+                string jsonLine = $"{{\"image\":\"./imgs/{filename}\",\"answer\":\"{answer}\"}}";
                 writer.WriteLine(jsonLine);
                 writer.Flush();
 
@@ -2552,16 +2562,6 @@ namespace Origami
             }
 
             return bmps;
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 

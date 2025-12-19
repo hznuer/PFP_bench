@@ -142,6 +142,9 @@ namespace Origami
                 string savePath = _exportSetting._path;
                 string jsonlPath = savePath + "\\answer.jsonl";
                 writer = new StreamWriter(jsonlPath);
+                string saveImgPath = savePath + "\\imgs";
+                if (!Directory.Exists(saveImgPath))
+                    Directory.CreateDirectory(saveImgPath);
 
                 foreach (string template in _exportSetting._templateList)
                 {
@@ -221,10 +224,10 @@ namespace Origami
                                                     char answer = (char)('A' + tmpList[0]);
                                                     string filename = template + "-id_" + i + "-fold_" + nfolderTime + "-sample_" + k + "-candidate_" + candidates.Count + "-answ_" + answer + _exportSetting._ext;
 
-                                                    result.Save(savePath + "\\" + filename);
+                                                    result.Save(saveImgPath + "\\" + filename);
                                                     labelExportInf.Text = "Write file: "+filename;
                                                     string jsonLine = string.Format(
-                                                        "{{\"image\":\"{0}\",\"answer\":\"{1}\"}}",
+                                                        "{{\"image\":\"./imgs/{0}\",\"answer\":\"{1}\"}}",
                                                         filename,
                                                         answer
                                                     );
@@ -265,7 +268,7 @@ namespace Origami
                             catch (Exception ex)
                             {
                                 // 记录异常但不中断整体流程
-                                Console.WriteLine($"Error processing template {template}, step {i}: {ex.Message}\n{ex.StackTrace}");
+                            //    Console.WriteLine($"Error processing template {template}, step {i}: {ex.Message}\n{ex.StackTrace}");
                             }
                         }
                     }

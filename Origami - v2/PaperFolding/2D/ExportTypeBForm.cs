@@ -231,8 +231,9 @@ namespace Origami
             string jsonlPath = savePath+ "\\answer.jsonl"; // 输出文件路径
             StreamWriter writer = new StreamWriter(jsonlPath);
             OrigamiConfuseScheme._objProbabilities = GetNumRate();
-
-
+            string saveImgPath = savePath + "\\imgs";
+            if (!Directory.Exists(saveImgPath))
+                Directory.CreateDirectory(saveImgPath);
             foreach (string template in _exportSetting._templateList)
             {
                 string path = Application.StartupPath + "\\Templates\\" + template + ".xml";
@@ -321,11 +322,12 @@ namespace Origami
                                             Bitmap result = ImageComposer.Compose(groupList, groupList2);
                                             char answer = (char)('A' + newId);
                                             string filename = template + "-id_" + i + "-fold_" + nfolderTime + "-sample_" + k +  "-answ_" + answer + _exportSetting._ext;
-                                          //  result.Save("test\\" + Environment.TickCount+".bmp" );
-                                            result.Save(savePath + "\\" + filename );
+                                            //  result.Save("test\\" + Environment.TickCount+".bmp" );
+       
+                                            result.Save(saveImgPath + "\\" + filename );
                                             labelExportInf.Text = "Write file: " + filename;
                                             string jsonLine = string.Format(
-                                              "{{\"image\":\"{0}\",\"answer\":\"{1}\"}}",
+                                              "{{\"image\":\"./imgs/{0}\",\"answer\":\"{1}\"}}",
                                               filename,
                                               answer
                                             );
