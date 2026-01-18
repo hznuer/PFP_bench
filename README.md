@@ -5,10 +5,9 @@ Paper Folding Puzzles: Can Multimodal Large Language Models Perform Spatial Reas
 
 <h5 align="center">
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2510.01304-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2510.01304)
+[![Paper](https://img.shields.io/badge/Paper-PDF-AD1C18.svg)](Paper_Folding_Puzzles.pdf)
 [![Conference](https://img.shields.io/badge/AAAI-2026-blue.svg)](https://aaai.org/)
-[![Dataset](https://img.shields.io/badge/Dataset-PaperFolding-blue.svg)](https://github.com/hznuer/PFP_bench)
-[![Project Page](https://img.shields.io/badge/ProjectPage-Website-green.svg?logo=github)](https://hznuer.github.io/PFP_bench/)
+[![Dataset](https://img.shields.io/badge/Dataset-PaperFolding-blue.svg)](https://huggingface.co/datasets/hznuer/PFP_datasets)
 
 </h5>
 
@@ -35,71 +34,25 @@ This repository contains the official implementation and benchmark dataset for o
 
 ## 📊 Dataset and Code Availability
 
-The code and dataset will be released soon!
+The project source code and datasets are now fully open and available!
 
-We are committed to making our research reproducible and accessible to the community. We will release:
+- **Dataset**: The complete dataset is hosted on [Hugging Face](https://huggingface.co/datasets/hznuer/PFP_datasets).
+- **Source Code**: The full implementation in C# is available in this repository.
+- **Paper**: [Paper Folding Puzzles: Can Multimodal Large Language Models Perform Spatial Reasoning?](Paper_Folding_Puzzles.pdf)
 
-- **Dataset Generation Code**: Complete pipeline for creating paper folding puzzles
-- **Comprehensive Benchmark Dataset**: Extensive collection of annotated puzzles
-- **Model Evaluation Framework**: Standardized testing and evaluation tools
-- **Baseline Models**: Reference implementations and pretrained models
-- **Detailed Documentation**: Usage instructions and API documentation
+## 🚀 Quick Start
 
-## 🔧 Installation
+### 📦 Download Pre-built Binaries (Recommended)
+For the fastest way to get started, you can download the ready-to-use version directly from GitHub Releases:
+1. Go to the [GitHub Releases](https://github.com/hznuer/PFP_bench/releases) page.
+2. Download the compressed package.
+3. Unzip the file and run the application directly.
 
-```bash
-# Clone the repository
-git clone https://github.com/hznuer/PFP_bench.git
-cd PFP_bench
-
-# Create conda environment
-conda create -n pfp python=3.10
-conda activate pfp
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## 🛫 Quick Start
-
-### Dataset Structure
-
-The dataset is organized as follows:
-
-```
-PFP_Dataset/
-├── basic/
-│   ├── single_fold/
-│   ├── double_fold/
-│   └── annotations.json
-├── intermediate/
-│   ├── complex_folds/
-│   ├── pattern_recognition/
-│   └── annotations.json
-├── advanced/
-│   ├── multi_step_reasoning/
-│   ├── spatial_visualization/
-│   └── annotations.json
-└── metadata/
-    ├── puzzle_types.json
-    ├── difficulty_levels.json
-    └── evaluation_metrics.json
-```
-
-### Evaluation Pipeline
-
-```python
-# Example usage
-from pfp_benchmark import PaperFoldingBenchmark
-
-# Initialize benchmark
-benchmark = PaperFoldingBenchmark(dataset_path="PFP_Dataset/")
-
-# Evaluate model
-results = benchmark.evaluate(model=your_model)
-print(f"Overall Accuracy: {results['accuracy']}")
-print(f"Spatial Reasoning Score: {results['spatial_reasoning']}")
-```
+### 💻 Build from Source
+The project is written in **C#**. To build and run it yourself:
+1. Clone this repository.
+2. Open the `Origami.sln` solution file using **Visual Studio**.
+3. Build the solution and run.
 
 ## 📈 Experimental Results
 
@@ -119,7 +72,7 @@ If you find our work useful for your research, please cite our AAAI 2026 paper:
 ```bibtex
 @inproceedings{paperfolding2026benchmark,
   title={Paper Folding Puzzles: Can Multimodal Large Language Models Perform Spatial Reasoning?},
-  author={[Author Names]},
+  author={Dibin Zhou and Yantao Xu and Zongming Huang and Zengwei Yan and Wenhao Liu and Yongwei Miao and Jianfeng Ren and Fuchang Liu},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2026}
 }
@@ -130,10 +83,7 @@ If you find our work useful for your research, please cite our AAAI 2026 paper:
 For questions or inquiries, please:
 - Open an issue in this repository
 - Contact the authors through the paper correspondence
-- Check our [project page](https://hznuer.github.io/PFP_bench/) for updates
 
 ---
 
 **Thank you for your interest in our work! Stay tuned for the full release!** 🎉
-
-*This repository will be updated with the complete implementation, datasets, and documentation for our AAAI 2026 paper.*
